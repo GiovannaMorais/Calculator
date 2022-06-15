@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <main class="container-calculadora">
+      <div class='dark-mode'>
+        <button id="darks" class="dark">Dark Mode</button>
+      </div>
+      <div id="visualizar">
+        <div class="container-visor">
+          <div id="visor-tela">
+            <span class="telinha">0</span>
+          </div>
+        </div>
+      </div>
+      <div class="container-button">
+        <div id="primeira">
+          <button type="button" class="bC" value="C">C</button>
+          <button type="button" class="exp operadores" value="**">^</button>
+          <button type="button" class="porce operadores" value="/100">%</button>
+          <button type="button" class="div operadores" value="/">÷</button>
+        </div>
+
+        <div id="segunda">
+          <button type="button" class="b7 but" value="7">7</button>
+          <button type="button" class="b8 but" value="8">8</button>
+          <button type="button" class="b9 but" value="9">9</button>
+          <button type="button" class="mult operadores" value="*">x</button>
+        </div>
+
+        <div id="terceira">
+          <button type="button" class="b4 but" value="4">4</button>
+          <button type="button" class="b5 but" value="5">5</button>
+          <button type="button" class="b6 but" value="6">6</button>
+          <button type="button" class="sub operadores" value="-">-</button>
+        </div>
+        <div id="quarta">
+          <button type="button" class="b1 but" value="1">1</button>
+          <button type="button" class="b2 but" value="2">2</button>
+          <button type="button" class="b3 but" value="3">3</button>
+          <button type="button" class="sum operadores" value="+">+</button>
+        </div>
+
+        <div id="quinta">
+          <button type="button" class="b0 but" value="0">0</button>
+          <button type="button" class="pont operadores" value=".">.</button>
+          <button type="button" class="result" value="result">=</button>
+        </div>
+
+        <div class="container-operaçoes">
+          <button id="bntC" type="button" class="clear" value="clear">
+            Limpar
+          </button>
+          <button id="bntA" type="button" class="apagar" value="apagar">
+            Apagar
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
